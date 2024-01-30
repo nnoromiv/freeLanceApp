@@ -1,0 +1,42 @@
+const gigs = [
+    {
+        title: 'MERN Developer',
+        categoryone: 'Web Development', 
+        categorytwo: 'MERN',
+        servicetype: 'Error Fixing',
+        metadata: 'Full web creation',
+        searchtag: [ "mern","web mern", "developer",],
+        pkgname:  [{ name: "basic"}, { name: "advance"}, { name: "premium"},],
+        pkgdescription:  [{ description: "basicdis"}, { description: "advancedis"}, { description: "premiumdis"},],
+        deliverytime:  [{ days: "2"}, { days: "4"}, { days: "5"},],
+        numofpages:  [{ pagesnum: "3"}, { pagesnum: "8"}, { pagesnum: "9"},],
+        numofproducts:  [{ productsnum: "3"}, { productsnum: "8"}, { productsnum: "9"},],
+        customization:  [{ name: true}, { name: false}, { name: true},],
+        responsivedesign:  [{ name: true}, { name: false}, { name: true},],
+        contentupload: [{ name: true}, { name: false}, { name: true},],
+        revision:  [{ name: 4}, { name: 5}, { name: 2},],
+        price:  [{ name: 543}, { name: 1890}, { name: 5200},],
+        image: '/images/img2.jpg',
+    },
+    {
+        title: 'React Developer',
+        categoryone: 'Web Development', 
+        categorytwo: 'React',
+        servicetype: 'Error Fixing',
+        metadata: 'Full web creation',
+        searchtag: ["React",  "web react",  "developer",],
+        pkgname:  [{ name: "basic"}, { name: "advance"}, { name: "premium"},],
+        pkgdescription:  [{ description: "basicdis"}, { description: "advancedis"}, { description: "premiumdis"},],
+        deliverytime:  [{ days: "2"}, { days: "4"}, { days: "5"},],
+        numofpages:  [{ pagesnum: "3"}, { pagesnum: "8"}, { pagesnum: "9"},],
+        numofproducts:  [{ productsnum: "3"}, { productsnum: "8"}, { productsnum: "9"},],
+        customization:  [{ name: true}, { name: false}, { name: true},],
+        responsivedesign:  [{ name: true}, { name: false}, { name: true},],
+        contentupload: [{ name: true}, { name: false}, { name: true},],
+        revision:  [{ name: 4}, { name: 5}, { name: 2},],
+        price:  [{ name: 543}, { name: 1890}, { name: 5200},],
+        image: '/images/img6.jpg',
+    }
+]
+
+export default gigs
